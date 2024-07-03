@@ -11,4 +11,12 @@ class Vehiculo:
 
     def describir(self):
         print(f"Vehículo de marca {self.marca}, modelo {self.__modelo}")
-        
+
+        class Coche(Vehiculo):
+            def __init__(self, marca, modelo, puertas):
+                super().__init__(marca, modelo)
+                self.puertas = puertas
+
+            def describir(self):
+                super().describir()
+                print(f"Es un coche de {self.puertas} puertas.")
