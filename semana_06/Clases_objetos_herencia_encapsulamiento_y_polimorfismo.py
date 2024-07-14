@@ -1,7 +1,7 @@
 class Vehiculo:
     def __init__(self, marca, modelo):
         self.marca = marca
-        self.__modelo = modelo  # Encapsulamos el atributo modelo
+        self.__modelo = modelo
 
     def get_modelo(self):
         return self.__modelo
