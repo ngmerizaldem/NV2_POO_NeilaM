@@ -1,4 +1,4 @@
-from clase_inventario import Inventario
+from semana_09.clase_inventario import Inventario
 
 
 def mostrar_menu():
